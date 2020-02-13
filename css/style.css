@@ -1,0 +1,89 @@
+*{
+    font-size: 25px;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+
+a:link { color: rgb(162, 8, 252) }
+a:visited { color: rgb(255, 0, 0) }
+a:active { color: rgb(252, 177, 80) }
+
+a:hover{
+    background: rgb(255, 5, 255) ;
+}
+
+ul#menu li {
+    display:inline;
+}
+
+header ul{
+    padding: 0;
+    display: table;
+    width: 100%;
+  
+}
+
+header li{
+    display: table-cell;
+}
+  
+header li a, footer li a{
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    background: rgb(230, 243, 255);
+  }
+h1, h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 50%;
+}
+
+h2{
+    font-size: xx-large;
+}
+
+.aboutFont{
+    font-size: xx-large;
+}
+
+.col{
+    width: 33%;
+}
+
+.col{
+    border: 1px solid;
+}
+
+.cols{
+    display: table; width:100%;
+}
+
+.col{
+    display: table-cell;
+}
+
+#footer{
+    color: white;
+}
+
+ul.tick{
+    list-style-image: url(/img/checked.png);
+}
+
+.contacts{
+    font-size: 25px;
+    color: rgb(255, 123, 0);
+    text-align: center;
+
+}
