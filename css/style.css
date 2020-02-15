@@ -78,7 +78,7 @@ h2{
 }
 
 ul.tick{
-    list-style-image: url(/img/checked.png);
+    list-style-image: url(img/checked.png);
 }
 
 .contacts{
