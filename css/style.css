@@ -77,7 +77,7 @@ h2{
     color: white;
 }
 
-ul.tick{
+.tick{
     list-style-image: url(img/checked.png);
 }
 
